@@ -1,0 +1,16 @@
+RETAIL SALES EDA - AUTOMATED SUMMARY
+
+Dataset rows: 250
+Columns: 12
+Total revenue: 953,693.00
+Average transaction value: 3,814.77
+Missing values: 3
+Highest-revenue category: Electronics
+Most-sold product by quantity: Keyboard
+
+Actionable recommendations (validate with real business context):
+1. Prioritise inventory planning for the highest-revenue category and most frequently purchased products.
+2. Compare monthly and quarterly peaks with promotions, holidays and stock availability before planning campaigns.
+3. Tailor customer campaigns by age group and gender only where sample sizes are adequate and the strategy is appropriate.
+4. Monitor average transaction value and test bundles or cross-sells to increase basket size.
+5. Improve customer and demographic data capture to reduce missing values and strengthen future analysis.
