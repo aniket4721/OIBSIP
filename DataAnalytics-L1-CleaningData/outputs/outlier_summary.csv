@@ -1,0 +1,5 @@
+Column,Lower_Bound,Upper_Bound,Outlier_Count
+Age,16.875,43.875,1
+Annual_Income,290000.0,970000.0,0
+Spending_Score,29.5,117.5,0
+Purchase_Amount,31.25,3521.25,3

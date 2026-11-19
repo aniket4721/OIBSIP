@@ -1,0 +1,33 @@
+Customer_ID,Customer_Name,Gender,Age,City,Join_Date,Annual_Income,Spending_Score,Purchase_Amount
+C001,Aarav Sharma,Male,24.0,Mumbai,2024-01-15,450000,72.0,1250.5
+C002,Priya Patel,female,29.0,PUNE,15/02/2024,620000,85.0,2300.0
+C003,Rohan Mehta,M,35.0,Navi Mumbai,Mar 03 2024,780000,60.0,1800.75
+C004,Sneha Joshi,F,,mumbai,2024/04/10,510000,90.0,950.0
+C005,Kabir Khan,Male,41.0,Pune,2024-05-21,,45.0,3100.0
+C006,Isha Desai,Female,27.0,Thane,22-06-2024,560000,,1450.25
+C007,Dev Shah,male,31.0,NAVI MUMBAI,2024-07-09,690000,77.0,2100.0
+C008,Meera Nair,F,22.0,Mumbai ,08/08/2024,390000,88.0,800.0
+C009,Arjun Rao,Male,150.0,Pune,2024-09-14,720000,55.0,1750.0
+C010,Tara Kulkarni,Female,26.0,Thane,2024-10-02,0,92.0,1250.0
+C011,Neil Gupta,M,33.0,Mumbai,not available,840000,66.0,2600.0
+C012,Anaya Iyer,Female,28.0,Pune,2024-12-19,610000,79.0,-500.0
+C013,Vivaan Shah,Male,30.0,Thane,2025-01-05,670000,70.0,1950.0
+C014,Diya Kapoor,female,,Mumbai,2025-02-11,590000,83.0,1600.0
+C015,Reyansh Jain,M,38.0,Pune,2025-03-17,910000,40.0,4200.0
+C016,Myra Singh,F,25.0,Thane,2025-04-23,480000,95.0,1100.0
+C017,Atharv More,Male,32.0,Mumbai,2025-05-30,640000,62.0,2050.0
+C018,Saanvi Pillai,Female,29.0,PUNE,2025-06-14,700000,74.0,1850.0
+C019,Krish Verma,male,36.0,Thane,2025-07-08,820000,58.0,2900.0
+C020,Aadhya Rao,F,23.0,Mumbai,2025-08-16,430000,89.0,980.0
+C021,Om Patil,Male,34.0,Pune,2025-09-03,760000,68.0,2250.0
+C022,Riya Sinha,Female,27.0,Thane,2025-10-12,540000,81.0,1400.0
+C023,Yash Malhotra,M,39.0,Mumbai,2025-11-25,880000,49.0,3600.0
+C024,Zara Khan,Female,21.0,Pune,2025-12-07,410000,93.0,890.0
+C025,Aarav Sharma,Male,24.0,Mumbai,2024-01-15,450000,72.0,1250.5
+C026,Aarav Sharma,Male,24.0,Mumbai,2024-01-15,450000,72.0,1250.5
+C027,Siddhi Pawar,Female,-5.0,Pune,2025-13-40,500000,76.0,1550.0
+C028,Parth Bhosale,M,45.0,Thane,2025-03-29,650000,64.0,1980.0
+C029,Aanya Gokhale,F,28.0,Mumbai,2025-04-04,575000,105.0,1750.0
+C030,Ishaan Kulkarni,Male,37.0,Pune,2025-05-19,790000,52.0,25000.0
+C031,Kiara Fernandes,Female,26.0,Thane,2025-06-22,unknown,87.0,1320.0
+C032,Manav Chavan,M,31.0,Mumbai,2025-07-31,610000,71.0,

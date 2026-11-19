@@ -1,0 +1,10 @@
+Column,Data_Type,Missing_Values
+Customer_ID,str,0
+Customer_Name,str,0
+Gender,str,0
+Age,float64,0
+City,str,0
+Join_Date,datetime64[us],2
+Annual_Income,float64,0
+Spending_Score,float64,0
+Purchase_Amount,float64,0

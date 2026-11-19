@@ -1,0 +1,31 @@
+Customer_ID,Customer_Name,Gender,Age,City,Join_Date,Annual_Income,Spending_Score,Purchase_Amount
+C001,Aarav Sharma,Male,24.0,Mumbai,2024-01-15,450000.0,72.0,1250.5
+C002,Priya Patel,Female,29.0,Pune,2024-02-15,620000.0,85.0,2300.0
+C003,Rohan Mehta,Male,35.0,Navi Mumbai,2024-03-03,780000.0,60.0,1800.75
+C004,Sneha Joshi,Female,29.5,Mumbai,2024-10-04,510000.0,90.0,950.0
+C005,Kabir Khan,Male,41.0,Pune,2024-05-21,620000.0,45.0,3100.0
+C006,Isha Desai,Female,27.0,Thane,2024-06-22,560000.0,73.0,1450.25
+C007,Dev Shah,Male,31.0,Navi Mumbai,2024-09-07,690000.0,77.0,2100.0
+C008,Meera Nair,Female,22.0,Mumbai,2024-08-08,390000.0,88.0,800.0
+C009,Arjun Rao,Male,29.5,Pune,2024-09-14,720000.0,55.0,1750.0
+C010,Tara Kulkarni,Female,26.0,Thane,2024-02-10,620000.0,92.0,1250.0
+C011,Neil Gupta,Male,33.0,Mumbai,,840000.0,66.0,2600.0
+C012,Anaya Iyer,Female,28.0,Pune,2024-12-19,610000.0,79.0,1775.375
+C013,Vivaan Shah,Male,30.0,Thane,2025-05-01,670000.0,70.0,1950.0
+C014,Diya Kapoor,Female,29.5,Mumbai,2025-11-02,590000.0,83.0,1600.0
+C015,Reyansh Jain,Male,38.0,Pune,2025-03-17,910000.0,40.0,4200.0
+C016,Myra Singh,Female,25.0,Thane,2025-04-23,480000.0,95.0,1100.0
+C017,Atharv More,Male,32.0,Mumbai,2025-05-30,640000.0,62.0,2050.0
+C018,Saanvi Pillai,Female,29.0,Pune,2025-06-14,700000.0,74.0,1850.0
+C019,Krish Verma,Male,36.0,Thane,2025-08-07,820000.0,58.0,2900.0
+C020,Aadhya Rao,Female,23.0,Mumbai,2025-08-16,430000.0,89.0,980.0
+C021,Om Patil,Male,34.0,Pune,2025-03-09,760000.0,68.0,2250.0
+C022,Riya Sinha,Female,27.0,Thane,2025-12-10,540000.0,81.0,1400.0
+C023,Yash Malhotra,Male,39.0,Mumbai,2025-11-25,880000.0,49.0,3600.0
+C024,Zara Khan,Female,21.0,Pune,2025-07-12,410000.0,93.0,890.0
+C027,Siddhi Pawar,Female,29.5,Pune,,500000.0,76.0,1550.0
+C028,Parth Bhosale,Male,45.0,Thane,2025-03-29,650000.0,64.0,1980.0
+C029,Aanya Gokhale,Female,28.0,Mumbai,2025-04-04,575000.0,73.0,1750.0
+C030,Ishaan Kulkarni,Male,37.0,Pune,2025-05-19,790000.0,52.0,25000.0
+C031,Kiara Fernandes,Female,26.0,Thane,2025-06-22,620000.0,87.0,1320.0
+C032,Manav Chavan,Male,31.0,Mumbai,2025-07-31,610000.0,71.0,1775.375
