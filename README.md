@@ -1,71 +1,65 @@
-# OIBSIP – Data Analytics – Task 1: EDA on Retail Sales Data
+# OIBSIP Level 2 – Task 1: House Price Prediction
 
 ## Project overview
-This project performs exploratory data analysis (EDA) on a retail sales dataset. It examines data quality, descriptive statistics, sales trends, customer demographics, product performance and relationships between numeric variables.
+This beginner-friendly project predicts a house's estimated price using a **Linear Regression** machine-learning model.
 
-**Important:** `dataset/retail_sales.csv` is a synthetic practice dataset generated for this project. It is not real customer or company data. If your internship requires a specific approved dataset, replace it with that dataset and adjust column names in the notebook/script.
+> **Dataset note:** `data/house_prices.csv` is a synthetic practice dataset created for this project. It is not real market or property-listing data. The model's results are for learning and demonstration only, not for financial or purchase decisions.
 
-## Folder structure
-```text
-OIBSIP_DataAnalytics_Task1_EDA_RetailSales/
-├── dataset/
-│   └── retail_sales.csv
-├── outputs/                 # generated charts, CSV summaries and report
-├── screenshots/             # add your own VS Code/output screenshots here
-├── src/
-│   └── analyze_retail_sales.py
-├── EDA_Retail_Sales.ipynb
-├── requirements.txt
-└── README.md
-```
+## Tools
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn (for optional visual exploration)
+- Scikit-learn
+- Joblib
+- VS Code / Jupyter Notebook
 
-## Run in VS Code (Windows PowerShell)
-1. Open this project folder in VS Code.
-2. Open Terminal → New Terminal.
-3. Create a virtual environment:
-   ```powershell
-   python -m venv .venv
-   ```
-4. Activate it:
-   ```powershell
-   .\.venv\Scripts\Activate.ps1
-   ```
-   If PowerShell blocks activation, run:
-   ```powershell
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   .\.venv\Scripts\Activate.ps1
-   ```
-5. Install packages:
-   ```powershell
-   python -m pip install -r requirements.txt
-   ```
-6. Register the notebook kernel:
-   ```powershell
-   python -m ipykernel install --user --name=oibsip-env --display-name "Python (OIBSIP)"
-   ```
-7. Open `EDA_Retail_Sales.ipynb`, select kernel **Python (OIBSIP)**, and run all cells from top to bottom.
+## Dataset columns
+| Column | Meaning |
+|---|---|
+| `Area_sqft` | House area in square feet |
+| `Bedrooms` | Number of bedrooms |
+| `Bathrooms` | Number of bathrooms |
+| `House_Age_years` | Age of the house in years |
+| `Parking_Spaces` | Number of parking spaces |
+| `Price_INR` | Target house price in Indian rupees |
 
-## Run the Python script instead
+## Project workflow
+1. Load and inspect the dataset.
+2. Select house characteristics as features (`X`) and price as the target (`y`).
+3. Split data into 80% training and 20% testing sets.
+4. Train a Linear Regression model.
+5. Predict prices for the test data.
+6. Evaluate with MAE, MSE, RMSE, and R².
+7. Save predictions, metrics, and the trained model.
+
+## Setup (Windows PowerShell)
 ```powershell
-python src/analyze_retail_sales.py
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python src/house_price_prediction.py
 ```
-The script saves charts, summary CSV files, a cleaned dataset and `eda_summary.txt` in `outputs/`.
 
-## Analysis included
-- Dataset shape, columns, data types and missing values
-- Descriptive statistics
-- Monthly and quarterly sales trends
-- Age-group and gender breakdown
-- Top 10 products by quantity sold
-- Revenue by product category
-- Numeric correlation heatmap
-- Additional revenue-by-gender analysis
-- Basic missing-value handling and cleaned CSV export
-- Actionable business recommendations
+## Example prediction
+The script also estimates the price of an example 1,500 sq. ft. house with 3 bedrooms, 2 bathrooms, 5 years of age, and 1 parking space.
 
-## Before submitting your internship task
-- Review every chart and write your own observations based on the actual results.
-- Add screenshots of your notebook running successfully to `screenshots/`.
-- Update this README with your name, internship track and any dataset source required by your program.
-- Add your own demo video and LinkedIn post as required by the internship instructions.
-- Follow the official OIBSIP submission instructions and deadline. This project folder is a starter project, not proof of submission or completion.
+## Project structure
+```text
+OIBSIP-L2-Task1-HousePricePrediction/
+├── data/
+│   └── house_prices.csv
+├── model/
+│   └── linear_regression_model.joblib
+├── outputs/
+│   ├── sample_predictions.csv
+│   └── sample_model_metrics.json
+├── screenshots/
+├── src/
+│   └── house_price_prediction.py
+├── House_Price_Prediction.ipynb
+├── README.md
+└── requirements.txt
+```
+
+## Important
+The model is trained on a small synthetic dataset with simplified relationships. Real house prices depend on many additional factors, including location, property condition, market conditions, and local regulations.
